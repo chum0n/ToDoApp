@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja" xmins:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; "charset="UTF-8" />
+	<style th:include="part :: frag_header_style"></style>
+	<style>
+	body { font-size:13pt; color:gray; margin:5px 25px; }
+	pre { boder: solid 3px #ddd; padding: 10px; }
+	tr { margin:5px; }
+	td { padding:5px; color:black; background:#f0f0f0; }
+	</style>
+	
+<title>編集画面</title>
+</head>
+
+<body>
+<header th:include="part :: frag_header"></header>
+<p class="msg" th:utext="${msg}"></p>
+<table>
+	<form method="post" action="/edit" th:object="${formModel}">
+	<input type="hidden" name="id" th:value="*{id}" />
+	<tr>
+	<td><label for="todoname">ToDo名</label></td>
+	<td><input type="text" name="todoname" th:text="*{todoname}" /></td>
+	</tr>
+	<tr>
+	<td><label for="deadline">期限</label></td>
+	<td><input type="text" name="deadline" th:text="*{deadline}" /></td>
+	</tr>
+	<tr>
+	<td><input type="submit" value="ToDoの追加" /></td>
+	</tr>
+	</form>
+</table>
+
+</body>
+</html>
