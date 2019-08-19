@@ -16,6 +16,10 @@ Search for dependencies: Web, JPA, Thymeleaf, DevTools, h2
 
 3. Search for dependenciesでWeb, JPA, Thymeleaf, DevTools, h2を選択
 
+# 完成している点
+
+まだほとんどないように思います。メールに記載した通り、現在実施している他社のインターンが終わり次第詰めます。
+
 # まだ完成していない点
 
 - メールにも記載した通り、開発に十分な時間を取ることができず、spring boot自体の学習があまりできなかったために、全体的に完成していません。
