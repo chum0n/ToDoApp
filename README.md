@@ -5,7 +5,7 @@ Search for dependencies: Web, JPA, Thymeleaf, DevTools, h2
 
 # 全体の設計・構成についての説明
 
-springboot練習のために作成。作成途中。
+springbootに慣れるために作成。作成途中。
 
 # 開発のセットアップ手順
 
