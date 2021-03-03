@@ -15,7 +15,3 @@ springbootに慣れるために作成。作成途中。
 2. 使用するビルドツールでGradleを選択
 
 3. Search for dependenciesでWeb, JPA, Thymeleaf, DevTools, h2を選択
-
-# 完成している点
-
-# まだ完成していない点
